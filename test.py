@@ -19,4 +19,4 @@ for log in npi_logs:
         print(f"✅ 正常: {log}")
 
 print("-" * 25)
-print(f"分析結束，共發現 {anomaly_count} 筆異常")
+print(f"分析結束，共發現 {anomaly_count} 筆異常aaa")

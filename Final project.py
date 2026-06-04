@@ -66,7 +66,7 @@ if len(filtered_result) > 0:
     wc = WordCloud(width=800, height=400, background_color='white', colormap='viridis')
     wc.generate_from_frequencies(word_counts)
     
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10, 6))
     plt.imshow(wc, interpolation='bilinear')
     plt.axis('off')
     plt.savefig("wordcloud.png")
